@@ -1,3 +1,25 @@
 .App {
   text-align: center;
+
+  .box {
+    width: 100px;
+    height: 100px;
+    background-color: navy;
+  }
+  .gameArea {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .gameAreaCenter {
+    justify-content: center;
+  }
+
+  .gameAreaRight {
+    justify-content: flex-end;
+  }
+
+  .gameAreaLeft {
+    justify-content: flex-start;
+  }
 }
