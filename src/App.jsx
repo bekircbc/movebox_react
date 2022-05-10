@@ -2,8 +2,8 @@ import { useState } from "react";
 import "./App.scss";
 
 function App() {
-  const [xPosition, setXPosition] = useState("XCenter");
-  const [yPosition, setYPosition] = useState("YCenter");
+  const [xPosition, setXPosition] = useState("Center");
+  const [yPosition, setYPosition] = useState("");
   return (
     <div className="App">
       <h2>Move an element left, right, center when button is pressed</h2>
@@ -20,8 +20,7 @@ function App() {
           <button
             className="center"
             onClick={() => {
-              setXPosition("XCenter");
-              setYPosition("YCenter");
+              setXPosition("Center");
             }}
           >
             Center

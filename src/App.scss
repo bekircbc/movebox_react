@@ -9,14 +9,12 @@
   .gameArea {
     display: flex;
     justify-content: flex-end;
+    width: 600px;
+    height: 600px;
   }
 
-  .gameAreaXCenter {
+  .gameAreaCenter {
     justify-content: center;
-  }
-
-  .gameAreaYCenter {
-    align-content: center;
   }
 
   .gameAreaRight {
